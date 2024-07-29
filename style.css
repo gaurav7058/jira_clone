@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.jiraClone{
+    background-color: black;
+    color: tomato;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#addTask{
+    background-color: tomato;
+    color: black;
+    padding: 10px 43px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.trello{
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.colum{
+    border: 1px solid black;
+    width: 30%;
+    height: 700px;
+}
+p{
+    text-align: center;
+}
+/* dynamic style */
+.card{
+    background-color: black;
+    color: tomato;
+    padding: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    cursor:pointer ;
+    font-size: larger;
+}
+.superDiv{
+    background-color: aqua;
+    text-align: center;
+}
+.select_option{
+    width: 150px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    background-color:#ddd;
+}
+
